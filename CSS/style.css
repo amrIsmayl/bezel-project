@@ -1,0 +1,961 @@
+
+:root{
+    --color1: #1f1f1f ;
+    --color2: #787878 ;
+    --BACKGROUND: #f7f7f7 ;
+}
+
+
+
+
+
+/* header */
+
+.header {
+    position: relative;
+    width: 80%;
+}
+
+.header .p_header {
+    font-size: 2.3rem;
+    font-weight: 900;
+    line-height: 38px;
+    color: var(--color1);
+}
+
+.header h2 {
+    font-size: 5rem;
+    opacity: .04;
+    font-weight: 700;
+    bottom: 42%;
+}
+
+.p2_header {
+    width: 80%;
+    font-size: 1.2rem;
+    color: var(--color2);
+}
+
+
+
+
+
+
+/* navbar */
+
+
+.navbar-brand img {
+    width: 50%;
+}
+
+.navbar-brand h1 {
+    font-size: 1.3rem;
+    padding-left: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #e65f78
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    transition: .5s color;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.kkk{
+    position: relative;
+}
+
+.kkk::before{
+    content: "";
+    position: absolute;
+    top: -22px;
+    bottom: -22px;
+    left: 0px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+/* Home */
+
+
+.Layer{
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;  
+} 
+
+.homee .carousel-control-prev {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+    left: -1px;
+    top: 260px;
+    border: 1px solid white;
+    border-radius: 0px 3px 0px 0px;
+
+}
+
+.homee .carousel-control-prev::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background-color: #fff;
+    transition: .3s;
+    z-index: 9;
+}
+
+.homee .carousel-control-prev:hover::before {
+    width: 100%;
+}
+
+.homee .carousel-control-next {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: -1px;
+    top: 310px;
+    border: 1px solid white;
+    border-radius: 0px 0px 3px 0px;
+}
+
+.homee .carousel-control-next::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    width: 0px;
+    height: 100%;
+    background-color: #fff;
+    transition: .3s;
+    z-index: 99;
+}
+
+.homee .carousel-control-next:hover::before {
+    width: 100%;
+}
+
+.homee h1{
+    font-size: 8vw;
+    font-weight: 700;
+}
+
+.homee .button1{
+    padding: 12px 30px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    transition: all .3s ;
+    background-color: #00c3da;
+}
+
+.homee .button1:hover {
+    transform: translateY(-1px);
+    background-color: #00d5ee;
+}
+
+.homee .button2{
+    padding: 12px 30px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid white;
+    transition: all .3s ;
+    background-color: rgba(0, 0, 0, .0);
+}
+
+.homee .button2:hover {
+    transform: translateY(-1px);
+    background-color: white;
+    color: var(--color1);
+}
+
+
+
+
+
+
+
+
+/* WHO WE ARE */
+
+.WHO_WE{
+    border-bottom: 1px solid #f0eeee;
+}
+
+.pragraph_WHO{
+    width: 68%;
+}
+
+.pragraph_WHO p{
+    color: var(--color2);
+}
+
+.pragraph_WHO button{
+    background-color: #fff;
+    border: 1px solid #dedede;
+    letter-spacing: 1px;
+    font-size: .7rem;
+    padding: 15px 30px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.pragraph_WHO button:hover {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.WHO_WE .animation_home::after{
+    content: "|";
+    animation:typing 7s infinite ;
+}
+
+@keyframes typing {
+    0% {
+        content: "D|";
+    }
+
+    1% {
+        content: "D |";
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    3% {
+        content: "De |";
+    }
+
+    4% {
+        content: "Des|";
+    }
+
+    5% {
+        content: "Des |";
+    }
+
+    6% {
+        content: "Desi|";
+    }
+
+    7% {
+        content: "Desi |";
+    }
+
+    8% {
+        content: "Desig|";
+    }
+
+    9% {
+        content: "Desig |";
+    }
+
+    10% {
+        content: "Design|";
+    }
+
+    11% {
+        content: "Design |";
+    }
+
+    13% {
+        content: "Designe|";
+    }
+
+    14% {
+        content: "Designe |";
+    }
+
+    15% {
+        content: "Designer|";
+    }
+
+    16% {
+        content: "Designer |";
+    }
+
+    17% {
+        content: "Designer|";
+    }
+
+    18% {
+        content: "Designe |";
+    }
+
+    19% {
+        content: "Designe|";
+    }
+
+    20% {
+        content: "Design |";
+    }
+
+    21% {
+        content: "Design|";
+    }
+
+    22% {
+        content: "Desig |";
+    }
+
+    23% {
+        content: "Desig|";
+    }
+
+    24% {
+        content: "Desi |";
+    }
+
+    25% {
+        content: "Desi|";
+    }
+
+    25% {
+        content: "Des |";
+    }
+
+    26% {
+        content: "Des|";
+    }
+
+    27% {
+        content: "De |";
+    }
+
+    28% {
+        content: "De|";
+    }
+
+    29% {
+        content: "D |";
+    }
+
+    30% {
+        content: "D|";
+    }
+
+    31% {
+        content: "|";
+    }
+
+    32% {
+        content: "D|";
+    }
+
+    33% {
+        content: "D |";
+    }
+
+    34% {
+        content: "De|";
+    }
+
+    35% {
+        content: "De |";
+    }
+
+    36% {
+        content: "Dev|";
+    }
+
+    37% {
+        content: "Dev |";
+    }
+
+    38% {
+        content: "Deve|";
+    }
+
+    39% {
+        content: "Deve |";
+    }
+
+    40% {
+        content: "Devel|";
+    }
+
+    41% {
+        content: "Devel |";
+    }
+
+    42% {
+        content: "Develo|";
+    }
+
+    43% {
+        content: "Develo |";
+    }
+
+    44% {
+        content: "Develop|";
+    }
+
+    45% {
+        content: "Develop |";
+    }
+
+    46% {
+        content: "Develope|";
+    }
+
+    47% {
+        content: "Develope |";
+    }
+
+    48% {
+        content: "Developer|";
+    }
+
+    49% {
+        content: "Developer |";
+    }
+
+    50% {
+        content: "Developer|";
+    }
+
+    51% {
+        content: "Develope |";
+    }
+
+    52% {
+        content: "Develope|";
+    }
+
+    53% {
+        content: "Develop |";
+    }
+
+    54% {
+        content: "Develop|";
+    }
+
+    55% {
+        content: "Develo |";
+    }
+
+    56% {
+        content: "Develo|";
+    }
+
+    57% {
+        content: "Devel |";
+    }
+
+    58% {
+        content: "Devel|";
+    }
+
+    59% {
+        content: "Deve |";
+    }
+
+    60% {
+        content: "Deve|";
+    }
+
+    61% {
+        content: "Dev |";
+    }
+
+    62% {
+        content: "Dev|";
+    }
+
+    63% {
+        content: "De |";
+    }
+
+    64% {
+        content: "De|";
+    }
+
+    65% {
+        content: "D |";
+    }
+
+    66% {
+        content: "D|";
+    }
+
+    67% {
+        content: "|";
+    }
+
+    68% {
+        content: "F|";
+    }
+
+    69% {
+        content: "F |";
+    }
+
+    70% {
+        content: "Fr|";
+    }
+
+    71% {
+        content: "Fr |";
+    }
+
+    72% {
+        content: "Fre|";
+    }
+
+    73% {
+        content: "Fre |";
+    }
+
+    74% {
+        content: "Free|";
+    }
+
+    75% {
+        content: "Free |";
+    }
+
+    76% {
+        content: "Freel|";
+    }
+
+    77% {
+        content: "Freel |";
+    }
+
+    78% {
+        content: "Freela|";
+    }
+
+    79% {
+        content: "Freela |";
+    }
+
+    80% {
+        content: "Freelan|";
+    }
+
+    81% {
+        content: "Freelan |";
+    }
+
+    82% {
+        content: "Freelanc|";
+    }
+
+    83% {
+        content: "Freelanc |";
+    }
+
+    84% {
+        content: "Freelance|";
+    }
+
+    85% {
+        content: "Freelance |";
+    }
+
+    86% {
+        content: "Freelance|";
+    }
+
+    87% {
+        content: "Freelanc |";
+    }
+
+    88% {
+        content: "Freelanc|";
+    }
+
+    89% {
+        content: "Freelan |";
+    }
+
+    90% {
+        content: "Freelan|";
+    }
+
+    91% {
+        content: "Freela |";
+    }
+
+    92% {
+        content: "Freela|";
+    }
+
+    93% {
+        content: "Freel |";
+    }
+
+    94% {
+        content: "Freel|";
+    }
+
+    95% {
+        content: "Free|";
+    }
+
+    96% {
+        content: "Fre|";
+    }
+
+    97% {
+        content: "Fr |";
+    }
+
+    98% {
+        content: "F|";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: "|";
+    }
+
+
+/* Designer|
+Developer|
+Freelancer| */
+
+}
+
+
+
+
+
+
+
+/* Creative Team */
+
+.code1 {
+    position: relative;
+}
+
+.code3 a {
+    color: #fff;
+    padding: 5px;
+}
+
+.code3 .font_size_i_Team{
+    font-size: .8rem;
+    font-weight: 900;
+}
+
+.code3 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    bottom: -30px;
+    right: 0px;
+    z-index: -9;
+    transition: all .5s ease;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.font_size_footer_card{
+    font-size: .8rem;
+    color: #fff;
+}
+
+.code1:hover .code3 {
+    top: 150px;
+    z-index: 6;
+    background-color: rgba(0, 195, 218, 0.9);
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+
+
+
+
+
+/* What We Do */
+
+#What_We{
+    background-color: #1f1f1f;
+    opacity: .7;
+    color: white;
+}
+
+.font_service{
+    font-size: .9rem;
+}
+
+.What_We_Do .header .p_header {
+    font-size: 2.3rem;
+    font-weight: 900;
+    line-height: 38px;
+    color: #fff;
+}
+
+.title_header{
+    position: relative;
+}
+
+.What_We_Do .header h2 {
+    font-size: 5rem;
+    opacity: .04;
+    font-weight: 700;
+    position: absolute;
+    left: -4%;
+    bottom: -50%;
+}
+
+.What_We_Do .p2_header {
+    font-size: 1rem;
+}
+
+.list_style{
+    list-style: ;
+}
+
+.font_s{
+    font-size: .6rem;
+    border: solid 1px white;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+
+
+
+
+
+/* Cheap Prices */
+
+#Prices{
+    background-color: var(--BACKGROUND);
+}
+
+.card_123{
+    background-color: #fff;
+    box-shadow: 0 0 40px rgb(0 0 0 / 5%);
+    transform: scale(1.08);
+}
+
+.card_1 h2{
+    font-size: 3.5rem;
+}
+
+.Cheap_Prices .dollar{
+    vertical-align: top;
+    font-size: 1.2rem;
+}
+
+.card_12{
+    background-color: #fff;
+    box-shadow: 0 0 40px rgb(0 0 0 / 5%);
+}
+
+.card_1 ul{
+    color: var(--color2);
+}
+
+.card_1 hr{
+    color: #b6b6b6;
+}
+
+.Cheap_Prices button{
+    color: #fff;
+    border-radius: 5px;
+    font-size: .8rem;
+    border: none;
+    transition: all .3s ;
+    background-color: #00c3da;
+}
+
+.Cheap_Prices button:hover {
+    transform: translateY(-1px);
+    background-color: #00d5ee;
+}
+
+.Gold{
+    font-size: .6rem;
+    padding: 5px 7px;
+    letter-spacing: 1px;
+    top: 10%;
+    right: 12%;
+
+}
+
+
+
+
+
+
+/* HAPPY CUSTOMERS */
+
+#HAPPY{
+    background-color: var(--BACKGROUND);
+}
+
+.card_HAPPY{
+    box-shadow: 0 15px 30px rgb(0 0 0 / 5%);
+    position: relative;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.HAPPY_CUSTOMERS .carousel-indicators [data-bs-target] {
+    
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.card_HAPPY img {
+    position: absolute;
+    top: -15%;
+    right: 37%;
+}
+
+.HAPPY_CUSTOMERS img{
+    width: 13%;   
+}
+
+.HAPPY_CUSTOMERS .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+}
+
+.HAPPY_CUSTOMERS .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 1.25rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: var(--color2);
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: all .15s ease;
+}
+
+.HAPPY_CUSTOMERS .carousel-control-prev:hover {
+    color: #00c3da;
+    transform: translate(-4px , 0px);
+}
+
+.HAPPY_CUSTOMERS .carousel-control-next:hover {
+    color: #00c3da;
+    transform: translate(4px , 0px);
+}
+
+
+
+
+
+
+/* Get In Touch */
+
+.Get_In_Touch iframe{
+    width: 100%;
+    height: 130vh;
+}
+
+.Get_In_Touch .p_header {
+    font-size: 2.3rem;
+    font-weight: 900;
+    line-height: 38px;
+    color: #1f1f1f;
+}
+
+.Get_In_Touch .title_header{
+    position: relative;
+}
+
+.Get_In_Touch h2 {
+    font-size: 5rem;
+    opacity: .04;
+    font-weight: 700;
+    position: absolute;
+    left: -1%;
+    bottom: 30%;
+}
+
+.input_1 span{
+    font-size: .9rem;
+}
+
+.input_1 input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #eee;
+    padding: 15px;
+}
+
+.input_2 textarea{
+    resize: none;
+    min-height: 110px;
+    width: 100%;
+    border: 2px solid #eee;
+    padding: 15px;
+}
+
+.Get_In_Touch button{
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    transition: all .3s ;
+    background-color: #00c3da;
+}
+
+.Get_In_Touch button:hover {
+    transform: translateY(-1px);
+    background-color: #00d5ee;
+}
