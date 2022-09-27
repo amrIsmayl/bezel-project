@@ -7,4 +7,4 @@ Second test in my career to learn Full-Stack
 
 The image show Home Page
 
-![This is an image](img/Capture1.PNG.PNG)
+![This is an image](img/Capture1.PNG)
